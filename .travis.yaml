@@ -1,4 +1,5 @@
 language: node_js
+version: ~> 1.0
 before_script:
   - npm install -g gatsby-cli
 node_js:
