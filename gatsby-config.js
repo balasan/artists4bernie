@@ -2,6 +2,7 @@ require(`dotenv`).config({
   path: `.env`
 });
 
+console.log(process.env.CLIENT_EMAIL);
 console.log(process.env.PRIVATE_KEY);
 
 module.exports = {
