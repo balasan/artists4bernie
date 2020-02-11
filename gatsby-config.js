@@ -21,10 +21,10 @@ module.exports = {
       resolve: `@lekoarts/gatsby-theme-minimal-blog`,
       options: {
         navigation: [
-          // {
-          //   title: `About`,
-          //   slug: `/about`
-          // }
+          {
+            title: `Letter of Support`,
+            slug: `/letter`
+          }
         ],
         externalLinks: [
           {
@@ -51,19 +51,7 @@ module.exports = {
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#6B46C1`,
-        display: `standalone`,
-        icons: [
-          // {
-          //   src: `/android-chrome-192x192.png`,
-          //   sizes: `192x192`,
-          //   type: `image/png`
-          // },
-          // {
-          //   src: `/android-chrome-512x512.png`,
-          //   sizes: `512x512`,
-          //   type: `image/png`
-          // }
-        ]
+        display: `standalone`
       }
     },
     `gatsby-plugin-offline`,
@@ -73,7 +61,6 @@ module.exports = {
       resolve: "gatsby-source-google-spreadsheet",
       options: {
         spreadsheetId: "1i8GuzAQEm-rPHX57M20wStZA2CmgcpgQgXdBSsRdIP8",
-        // spreadsheetName: "Signatures",
         typePrefix: "GoogleSpreadsheet",
         credentials: {
           client_email: process.env.CLIENT_EMAIL,

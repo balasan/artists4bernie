@@ -1,6 +1,6 @@
 import React from "react"
 import { Global } from "@emotion/core"
-import { AspectImage, AspectRatio, Image } from "@theme-ui/components";
+import { AspectImage, AspectRatio, Image, Link } from "@theme-ui/components";
 import { Main, Styled, Container, css } from "theme-ui"
 import "typeface-ibm-plex-sans"
 import SEO from "./seo"
@@ -36,6 +36,7 @@ const Layout = ({ children, className }: LayoutProps) => (
     />
     <SEO />
 
+    <Link href={'/'} sx={{ display: 'block' }}>
     <AspectImage
       ratio={16/3}
       src={'/header.jpg'}
@@ -45,6 +46,7 @@ const Layout = ({ children, className }: LayoutProps) => (
         objectFit: 'cover'
       }}
     />
+    </Link>
     <SkipNavLink>Skip to content</SkipNavLink>
     <Container>
       <Header />
