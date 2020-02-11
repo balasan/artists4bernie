@@ -9,13 +9,13 @@
   "scripts": {
     "build": "gatsby build",
     "deploy": "gatsby build --prefix-paths && gh-pages -d public",
-    "develop": "gatsby develop",
+    "dev": "gatsby develop",
     "develop:cypress": "cross-env CYPRESS_SUPPORT=y yarn develop",
     "build:cypress": "cross-env CYPRESS_SUPPORT=y yarn build",
     "start": "gatsby develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "echo 'test'"
+    "test": "echo 'skipping tests'"
   },
   "dependencies": {
     "@lekoarts/gatsby-theme-minimal-blog": "^2.0.1",
