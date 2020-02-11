@@ -2,7 +2,7 @@ require(`dotenv`).config({
   path: `.env`
 });
 
-process.env(process.env.PRIVATE_KEY);
+consol.log(process.env.PRIVATE_KEY);
 
 module.exports = {
   siteMetadata: {
