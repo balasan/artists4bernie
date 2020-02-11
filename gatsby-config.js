@@ -2,8 +2,7 @@ require(`dotenv`).config({
   path: `.env`
 });
 
-console.log(process.env.CLIENT_EMAIL);
-console.log(process.env.PRIVATE_KEY);
+console.log("CLIENT_EMAIL", process.env.CLIENT_EMAIL);
 
 module.exports = {
   siteMetadata: {
