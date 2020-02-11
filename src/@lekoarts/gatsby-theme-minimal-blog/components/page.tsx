@@ -27,16 +27,16 @@ const Page = ({ data }: PageProps) => {
   </Layout>
 }
 
-export const query = graphql`
-  query {
-    allGoogleSpreadsheetSheet2 {
-      edges {
-        node {
-          about
-        }
-      }
-    }
-  }
-`;
+// export const query = graphql`
+//   query {
+//     allGoogleSpreadsheetSheet2 {
+//       edges {
+//         node {
+//           about
+//         }
+//       }
+//     }
+//   }
+// `;
 
 export default Page
