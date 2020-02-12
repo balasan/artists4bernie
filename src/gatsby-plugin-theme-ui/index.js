@@ -4,7 +4,7 @@ const headingStyles = {
   h1: {
     ...tailwind.styles.h1,
     color: `heading`,
-    fontSize: [5, 6, 7],
+    fontSize: [3, 3, 3],
     mt: 2
   },
   h2: {
@@ -43,33 +43,33 @@ export default {
   useCustomProperties: true,
   colors: {
     ...tailwind.colors,
-    primary: tailwind.colors.purple[7],
-    secondary: `#5f6c80`,
-    toggleIcon: tailwind.colors.gray[8],
-    heading: tailwind.colors.black,
+    primary: `#fe2144`,
+    secondary: `#0168c7`,
+    toggleIcon: `#0168c7`,
+    heading: `#fff`,
     divide: tailwind.colors.gray[4],
     modes: {
       dark: {
-        text: tailwind.colors.gray[4],
-        primary: tailwind.colors.purple[5],
-        secondary: `#7f8ea3`,
-        toggleIcon: tailwind.colors.gray[4],
-        background: `#1A202C`,
-        heading: tailwind.colors.white,
-        divide: tailwind.colors.gray[8]
+        text: `#fff`,
+        primary: `#fff`,
+        secondary: `#fff`,
+        toggleIcon: `#fff`,
+        background: `#000`,
+        heading: `#fff`,
+        divide: `#fff`
       }
     }
   },
   fonts: {
     ...tailwind.fonts,
-    body: `"IBM Plex Sans", -apple-system, BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"`
+    body: `"Helvetica Neue", -apple-system, BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"`
   },
   styles: {
     ...tailwind.styles,
     root: {
       ...tailwind.styles.root,
-      color: `text`,
-      backgroundColor: `background`
+      color: `#fff`,
+      backgroundColor: `#000`
     },
     p: {
       fontSize: [1, 1, 2],
@@ -148,7 +148,7 @@ export default {
     },
     listItem: {
       fontSize: [1, 2, 3],
-      color: `text`
+      color: `#fff`
     }
   }
 };

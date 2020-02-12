@@ -29,7 +29,7 @@ const Homepage = ({ posts }: PostsProps) => {
 
   return (
     <Layout>
-      <section sx={{ mb: [5, 6, 7], p: { fontSize: [1, 2, 3], mt: 2 } }}>
+      <section sx={{ mb: [5, 6, 7], p: { fontSize: [1, 2, 3], mt: 2, lineHeight: 1.33 }, ul:{ m: 0, p: 0}, li: { "::before": {ml: 4}, listStyleType: `none`, pl: 0, pt: 1, pb: 1,  width: [`50%`,`33.333%`], display: `inline-block`,} }}>
         <Hero />
       </section>
       <List>

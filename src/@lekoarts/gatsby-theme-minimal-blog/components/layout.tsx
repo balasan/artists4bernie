@@ -36,15 +36,25 @@ const Layout = ({ children, className }: LayoutProps) => (
     />
     <SEO />
 
-    <Link href={'/'} sx={{ display: 'block' }}>
+    
     <AspectImage
       ratio={16/3}
-      src={'/header.jpg'}
+      src={'/bernie-bg.jpg'}
       sx={{
         height: '100%',
         width: '100%',
         objectFit: 'cover'
       }}
+    />
+    
+    <Link href={'/'} sx={{ display: 'block' }}>
+    <Image
+    src={'/bernietext.png'}
+    sx={{
+      width: 'calc(1024px - 4rem)',
+      margin: '4rem auto',
+      display: 'block'
+    }}
     />
     </Link>
     <SkipNavLink>Skip to content</SkipNavLink>
@@ -55,6 +65,25 @@ const Layout = ({ children, className }: LayoutProps) => (
       </Main>
       <Footer />
     </Container>
+    <Link href={'/'} sx={{ display: 'block' }}>
+    <Image
+    src={'/bernietext.png'}
+    sx={{
+      width: 'calc(1024px - 4rem)',
+      margin: '4rem auto',
+      display: 'block'
+    }}
+    />
+    </Link>
+    <AspectImage
+      ratio={16/3}
+      src={'/bernie-bg.jpg'}
+      sx={{
+        height: '100%',
+        width: '100%',
+        objectFit: 'cover'
+      }}
+    />
   </Styled.root>
 )
 

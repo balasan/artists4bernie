@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 import { Flex } from "@theme-ui/components"
 import useSiteMetadata from "../hooks/use-site-metadata"
 import useMinimalBlogConfig from "../hooks/use-minimal-blog-config"
-import ColorModeToggle from "./colormode-toggle"
+// import ColorModeToggle from "./colormode-toggle"
 import Navigation from "./navigation"
 import replaceSlashes from "../utils/replaceSlashes"
 
@@ -28,7 +28,7 @@ const Header = () => {
         >
           <h1 sx={{ my: 0, fontWeight: `medium`, fontSize: [3, 4] }}>{siteTitle}</h1>
         </Link>
-        <ColorModeToggle isDark={isDark} toggle={toggleColorMode} />
+        
       </Flex>
       <div
         sx={{

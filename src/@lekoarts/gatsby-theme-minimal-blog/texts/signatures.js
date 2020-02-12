@@ -30,15 +30,14 @@ const withData = WrappedComponent => props => (
 
 export const Signatures = withData(({ data }) => {
   return (
-    <p>
-      <Flex mt={4} sx={{ flexWrap: "wrap" }}>
+      <ul mt={4}>
         {data.allGoogleSpreadsheetSheet1.edges.map(({ node }) => (
-          <Box display={"flex"} flex={"auto"} pr={4} key={node.id}>
+          <li pr={4} key={node.id}>
             {node.name}
-          </Box>
+            <hr/>
+          </li>
         ))}
-      </Flex>
-    </p>
+      </ul>
   );
 });
 
