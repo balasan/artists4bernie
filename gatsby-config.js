@@ -28,6 +28,11 @@ module.exports = {
         ],
         externalLinks: [
           {
+            name: "Contact",
+            target: "_blank",
+            url: "mailto:unitedartistsforbernie2020@gmail.com"
+          },
+          {
             name: `Volunteer`,
             target: "_blank",
             url: `https://berniesanders.com/volunteer/`

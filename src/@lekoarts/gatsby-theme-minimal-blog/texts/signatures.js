@@ -1,6 +1,5 @@
 import React, { Fragment } from "react";
 import { StaticQuery, graphql } from "gatsby";
-import { Flex, Box } from "@theme-ui/components";
 
 const query = graphql`
   query {
@@ -30,14 +29,14 @@ const withData = WrappedComponent => props => (
 
 export const Signatures = withData(({ data }) => {
   return (
-      <ul mt={4}>
-        {data.allGoogleSpreadsheetSheet1.edges.map(({ node }) => (
-          <li pr={4} key={node.id}>
-            {node.name}
-            <hr/>
-          </li>
-        ))}
-      </ul>
+    <ul mt={4}>
+      {data.allGoogleSpreadsheetSheet1.edges.map(({ node }) => (
+        <li pr={4} key={node.id}>
+          {node.name}
+          <hr />
+        </li>
+      ))}
+    </ul>
   );
 });
 
