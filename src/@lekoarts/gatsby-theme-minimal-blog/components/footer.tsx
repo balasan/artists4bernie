@@ -37,7 +37,8 @@ const Footer = () => {
       textAlign: `center`
       }}
       >
-        &copy; {new Date().getFullYear()} by {siteTitle}. All rights reserved.
+        &copy; {new Date().getFullYear()} by {siteTitle}. All rights reserved.<br/>
+        The Artists4Bernie initiative is not a part of the official Bernie Sanders Campaign.
       </div>
     </footer>
   )
