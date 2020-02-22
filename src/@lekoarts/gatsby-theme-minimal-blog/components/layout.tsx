@@ -51,7 +51,8 @@ const Layout = ({ children, className }: LayoutProps) => (
     <Image
     src={'/bernietext.png'}
     sx={{
-      width: 'calc(1024px - 4rem)',
+      width: '95%',
+      maxWidth: 'calc(1024px - 4rem)',
       margin: '4rem auto',
       display: 'block'
     }}
@@ -63,18 +64,20 @@ const Layout = ({ children, className }: LayoutProps) => (
       <Main id="skip-nav" css={css({ ...CodeStyles })} className={className}>
         {children}
       </Main>
-      <Footer />
-    </Container>
-    <Link href={'/'} sx={{ display: 'block' }}>
+      <Link href={'/'} sx={{ display: 'block' }}>
     <Image
     src={'/bernietext.png'}
     sx={{
-      width: 'calc(1024px - 4rem)',
+      width: '95%',
+      maxWidth: 'calc(1024px - 4rem)',
       margin: '4rem auto',
       display: 'block'
     }}
     />
     </Link>
+      <Footer />
+    </Container>
+    
     <AspectImage
       ratio={16/3}
       src={'/bernie-bg.jpg'}

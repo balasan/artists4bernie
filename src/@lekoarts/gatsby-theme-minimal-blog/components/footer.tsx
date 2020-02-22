@@ -20,6 +20,7 @@ const Footer = () => {
         variant: `dividers.top`,
       }}
     >
+      <Link href="https://berniesanders.com" target="_blank">
       <Image
         mt={5}
         src="/bernie.png"
@@ -32,6 +33,7 @@ const Footer = () => {
           display: 'block'
         }}
         />
+        </Link>
       <div
       sx={{
       textAlign: `center`
