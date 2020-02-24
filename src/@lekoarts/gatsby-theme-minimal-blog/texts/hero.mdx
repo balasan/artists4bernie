@@ -2,8 +2,7 @@
 title: Main
 slug: "/"
 ---
-import { Image, Box, Text } from "@theme-ui/components";
-
+import { Image, Box, Text, Link } from "@theme-ui/components";
 import { Signatures, Count } from './signatures';
 
 Artists4Bernie is an artist-led campaign. We represent a diverse coalition of people that work within art and culture from around the world, and with this letter, we would like to declare our support for Senator Bernie Sanders and endorse his candidacy for President of the United States. <a href="https://forms.gle/D12ZuAnur5dRtY5z5" target="_blank">Sign your name</a> and join us to build a better future.
@@ -11,6 +10,10 @@ Artists4Bernie is an artist-led campaign. We represent a diverse coalition of pe
 <Box mt={4} />
 
 <Box mt={5} />
+
+<Link href={'https://forms.gle/D12ZuAnur5dRtY5z5'} target="_blank" sx={{ display: 'block', backgroundColor: '#ff0000', color: 'black', textAlign: 'center', fontWeight: 'medium', maxWidth: '320px', padding: '16px' }}>Sign your name</Link>
+
+<Box mt={5} sx={{borderTop: '1px white solid', paddingTop: '32px'}} />
 
 # Signatures: <Count />
 
