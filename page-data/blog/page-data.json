@@ -1,1 +1,1 @@
-{"componentChunkName":"component---node-modules-lekoarts-gatsby-theme-minimal-blog-core-src-templates-blog-query-tsx","path":"/blog","result":{"data":{"allPost":{"nodes":[{"__typename":"MdxPost","id":"fad9b5cb-ccb3-5561-bc97-117c7a435cc0","slug":"/about","title":"About","date":"25.10.2019","tags":null}]}},"pageContext":{}}}
+{"componentChunkName":"component---node-modules-lekoarts-gatsby-theme-minimal-blog-core-src-templates-blog-query-tsx","path":"/blog","result":{"data":{"allPost":{"nodes":[]}},"pageContext":{}}}
